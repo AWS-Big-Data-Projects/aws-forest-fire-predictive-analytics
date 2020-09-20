@@ -1,14 +1,7 @@
 # Forest Wildfire Analytics w/ AWS Cloud
 Wildfires can cause devastating destruction and cost millions of dollars in damage, especially with increasing human development near wilderness or rural areas. The ability to predict the cause of wildfires would be a preemptive measure to prevent and/or manage wildfires. This can enable fire scientists to quickly determine the cause and actions to take. For this project, we will be utilizing AWS Cloud to design a machine learning workflow that is flexible, robust, and automated.
 
-## Team Information
-**University**: [San Jose State University](http://www.sjsu.edu/)
 
-**Course**: [Big Data Engineering and Analytics](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE266.html)
-
-**Professor**: [Sanjay Garje](https://www.linkedin.com/in/sanjaygarje/)
-
-**Students**: [Anna Chow](https://github.com/dragonaeve), [Hemang Behl](https://github.com/hemangbehl), [Jason Gonsalves](https://github.com/Jasg12), [Kevin Chuang](https://github.com/k-chuang), [Richita Das](https://github.com/richita-94)
 
 ## Architecture
 ![](images/CMPE_266_Architecture.png)
