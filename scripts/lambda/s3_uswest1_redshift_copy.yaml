@@ -1,0 +1,24 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: testing redshift copy from s3
+Resources:
+  s3uswest1redshiftcopy:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: s3_redshift_copy_3.lambda_handler
+      Runtime: python3.6
+      CodeUri: .
+      Description: testing redshift copy from s3
+      MemorySize: 704
+      Timeout: 300
+      Role: 'arn:aws:iam::931462350408:role/role_lambda_s3_glue'
+      Events:
+        BucketEvent1:
+          Type: S3
+          Properties:
+            Bucket:
+              Ref: Bucket1
+            Events:
+              - 's3:ObjectCreated:*'
+  Bucket1:
+    Type: 'AWS::S3::Bucket'

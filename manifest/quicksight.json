@@ -1,0 +1,16 @@
+{
+    "fileLocations": [
+        {
+            "URIs": [
+                "https://s3.us-east-2.amazonaws.com/landing-zone1/firecsv_small.csv",
+                "https://s3.us-east-2.amazonaws.com/landing-zone1/firecsv_test.csv"
+            ]
+        }
+    ],
+    "globalUploadSettings": {
+        "format": "CSV",
+        "delimiter": ",",
+        "textqualifier": "'",
+        "containsHeader": "true"
+    }
+}
