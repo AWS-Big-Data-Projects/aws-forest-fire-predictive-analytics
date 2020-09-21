@@ -1,3 +1,4 @@
+
 CREATE TABLE firered_reduced2 (
   fire_year INTEGER,
   stat_cause_descr VARCHAR(50),
