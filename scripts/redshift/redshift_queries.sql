@@ -1,3 +1,4 @@
+
 CREATE TABLE fireRed1 (
   objectid INTEGER,
   fod_id INTEGER,
