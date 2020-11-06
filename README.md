@@ -2,6 +2,7 @@
 
 Wildfires can cause devastating destruction and cost millions of dollars in damage, especially with increasing human development near wilderness or rural areas. The ability to predict the cause of wildfires would be a preemptive measure to prevent and/or manage wildfires. This can enable fire scientists to quickly determine the cause and actions to take. For this project, we will be utilizing AWS Cloud to design a machine learning workflow that is flexible, robust, and automated.
 
+
 ## Architecture
 ![](images/CMPE_266_Architecture.png)
 
