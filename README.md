@@ -4,6 +4,7 @@ Wildfires can cause devastating destruction and cost millions of dollars in dama
 
 
 
+
 ## Architecture
 ![](images/CMPE_266_Architecture.png)
 
